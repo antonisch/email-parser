@@ -11,10 +11,12 @@
     ],
     "autoload": {
         "psr-0": {
-            "PhpFtp": "src/"
+            "EmailParser:": "src/"
         }
     },
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "minimum-stability": "dev",
+        "prefer-stable": true
     }
 }
