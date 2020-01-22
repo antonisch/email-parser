@@ -1,0 +1,20 @@
+{
+    "name": "antonisch/email_parser",
+    "description": "Email Imap interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonios",
+            "email": "antonis@blackport.de"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PhpFtp": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
